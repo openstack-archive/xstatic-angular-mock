@@ -20,7 +20,13 @@ PACKAGE_VERSION = VERSION + '.' + BUILD # version used for PyPi
 DESCRIPTION = "%s %s (XStatic packaging standard)" % (DISPLAY_NAME, VERSION)
 
 PLATFORMS = 'any'
-CLASSIFIERS = []
+CLASSIFIERS = [
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 2.6",
+    "Programming Language :: Python :: 2.7",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.3",
+]
 KEYWORDS = '%s xstatic' % NAME
 
 # XStatic-* package maintainer:
